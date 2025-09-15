@@ -71,6 +71,7 @@ int main(int argc, char *argv[])
         n = read(sockfd, buffer + total_read, size - total_read);
         if (n < 0) error("ERROR reading from socket");
         if (n == 0) break;
+        printf("Cantidad leída en esta iteración: %d bytes\n", n);
         total_read += n;
     }
 
