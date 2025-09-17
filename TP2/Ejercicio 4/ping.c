@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
 
     long seconds = end.tv_sec - start.tv_sec;
     long usec = end.tv_usec - start.tv_usec;
-    double elapsed = seconds * 1000.0 + usec / 1000.0;
+    double elapsed = seconds * 1000000.0 + usec ;
 
     printf("RTT para %d bytes: %.3f ms\n", size, elapsed);
 
