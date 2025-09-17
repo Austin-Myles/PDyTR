@@ -89,8 +89,8 @@ int main(int argc, char *argv[])
      
     long seconds = end.tv_sec - start.tv_sec;
     long usec = end.tv_usec - start.tv_usec;
-    double elapsed = seconds * 1000000.0 + usec;  // en microsegundos.
+    double elapsed = seconds * 1000.0 + usec / 1000.0;  // en ms
 
-    printf("Tiempo transcurrido del servidor: %.3f microsegundos\n", elapsed);
+    printf("Tiempo transcurrido del servidor: %.3f ms\n", elapsed);
      return 0; 
 }
