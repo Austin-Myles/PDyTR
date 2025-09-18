@@ -1,30 +1,29 @@
 Iteración 1
-Tiempo transcurrido del servidor: 8.000 microsegundos
+Tiempo transcurrido del servidor: 4.000 microsegundos
 Iteración 2
-Cantidad leída en esta iteración: 7240 bytes
-Cantidad leída en esta iteración: 21720 bytes
-Cantidad leída en esta iteración: 71040 bytes
-Tiempo transcurrido del servidor: 3819.000 microsegundos
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 45.000 microsegundos
 Iteración 3
-Cantidad leída en esta iteración: 100000 bytes
-Tiempo transcurrido del servidor: 4177.000 microsegundos
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 35.000 microsegundos
 Iteración 4
-Cantidad leída en esta iteración: 86880 bytes
-Cantidad leída en esta iteración: 1448 bytes
-Cantidad leída en esta iteración: 11672 bytes
-Tiempo transcurrido del servidor: 2037.000 microsegundos
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 30.000 microsegundos
 Iteración 5
-Cantidad leída en esta iteración: 24616 bytes
-Cantidad leída en esta iteración: 59368 bytes
-Cantidad leída en esta iteración: 16016 bytes
-Tiempo transcurrido del servidor: 5412.000 microsegundos
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 30.000 microsegundos
 Iteración 6
-Cantidad leída en esta iteración: 7240 bytes
-Cantidad leída en esta iteración: 92760 bytes
-Tiempo transcurrido del servidor: 4228.000 microsegundos
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 41.000 microsegundos
 Iteración 7
-Cantidad leída en esta iteración: 28960 bytes
-Cantidad leída en esta iteración: 43440 bytes
-Cantidad leída en esta iteración: 27600 bytes
-Tiempo transcurrido del servidor: 4934.000 microsegundos
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 26.000 microsegundos
 Iteración 8
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 24.000 microsegundos
+Iteración 9
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 28.000 microsegundos
+Iteración 10
+Cantidad leída en esta iteración: 1000 bytes
+Tiempo transcurrido del servidor: 35.000 microsegundos

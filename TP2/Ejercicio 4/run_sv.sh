@@ -13,5 +13,5 @@ chmod +x $HOME/times
 for ((i=1; i<=ITERACIONES; i++)); do
     echo "Iteración $i" | tee -a $OUTFILE
     $HOME/times $PORT $SIZE | tee -a $OUTFILE
-    sleep 5
+    sleep 1
 done

@@ -13,12 +13,12 @@ chmod +x $HOME/timec
 # Esperar a que el puerto del servidor esté disponible
 echo "Esperando a que $HOST:$PORT esté disponible..."
 until nc -z $HOST $PORT; do
-  sleep 3
+  sleep 1
 done
 
 > $OUTFILE
 for ((i=1; i<=ITERACIONES; i++)); do
     echo "Iteración $i" | tee -a $OUTFILE
     $HOME/timec $HOST $PORT $SIZE | tee -a $OUTFILE
-    sleep 5
+    sleep 3
 done
