@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.grpc.chat";
+option java_outer_classname = "ChatProto";
+
+// El servicio principal de Chat
+service ChatService {
+  // RPC bidireccional para la comunicación en tiempo real.
+  rpc chat(stream ChatMessage) returns (stream ChatMessageFromServer);
+
+  // RPC unario para obtener el historial de mensajes.
+  rpc getHistory(HistoryRequest) returns (HistoryResponse);
+}
+
+// Mensaje enviado por el cliente al servidor
+message ChatMessage {
+  string from_user = 1;
+  string content = 2;
+}
+
+// Mensaje enviado por el servidor al cliente (puede incluir info del sistema)
+message ChatMessageFromServer {
+  string from_user = 1;
+  string content = 2;
+  string timestamp = 3;
+}
+
+// Solicitud para el historial (puede estar vacía)
+message HistoryRequest {
+  // Podrías agregar filtros aquí en el futuro, como un rango de fechas.
+}
+
+// Respuesta del servidor con el historial
+message HistoryResponse {
+  bytes file_content = 1; // Contenido del archivo (TXT o PDF) en bytes
+  string file_name = 2;   // Nombre del archivo para guardarlo
+}
